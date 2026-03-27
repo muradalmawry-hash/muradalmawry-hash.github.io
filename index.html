@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Murad | Web & App Designer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+ rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0
+beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #0f3460);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            max-width: 550px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 48px;
+            padding: 40px 28px;
+            text-align: center;
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+        .avatar {
+            width: 130px;
+            height: 130px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #fff;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            background: #00ffcc10;
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff, #00ffcc);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .badge {
+            display: inline-block;
+            background: #00ffcc20;
+            backdrop-filter: blur(4px);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            border: 1px solid #00ffcc80;
+            color: #00ffcc;
+        }
+        .description {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin: 20px 0;
+            color: #e0e0e0;
+        }
+        .description p {
+            margin-bottom: 10px;
+        }
+        .contact-phone {
+            background: rgba(255,255,255,0.1);
+            border-radius: 60px;
+            padding: 10px 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin: 15px 0 20px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            direction: ltr;
+            font-family: monospace;
+        }
+        .contact-phone i {
+            font-size: 1.3rem;
+        }
+        .links {
+            display: flex;
+ f
+ lex-direction: column;
+            gap: 16px;
+            margin: 20px 0;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: white;
+            color: #1e1e2f;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 60px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .links a i {
+            font-size: 1.4rem;
+        }
+        .links a:active {
+            transform: scale(0.98);
+        }
+        /* WhatsApp */
+        .links a.whatsapp:hover,
+        .links a.whatsapp:active {
+            background: #25D366;
+            color: white;
+            box-shadow: 0 0 15px #25D366;
+        }
+        /* Facebook */
+        .links a.facebook:hover,
+        .links a.facebook:active {
+            background: #1877F2;
+            color: white;
+            box-shadow: 0 0 15px #1877F2;
+        }
+        /* Instagram */
+        .links a.instagram:hover,
+        .links a.instagram:active {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color: white;
+            box-shadow: 0 0 18px #e4405f;
+        }
+        .footer-note {
+            font-size: 0.8rem;
+            margin-top: 25px;
+            color: #aaa;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 18px;
+        }
+        @media (max-width: 480px) {
+            .card {
+            }
+                padding: 30px 20px;
+            h1 {
+                font-size: 1.9rem;
+            }
+            .badge {
+                font-size: 0.8rem;
+            }
+            .links a {
+                padding: 12px;
+                font-size: 1rem;
+            }
+            .contact-phone {
+                font-size: 0.9rem;
+                padding: 8px 14px;
+            }
+        }
+    </style>
+ </head>
+ <body>
+ <div class="card">
+    <div class="avatar">
+        <img src="murad.jpg" alt="Murad">
+    </div>
+    <h1>Murad</h1>
+    <div class="badge">
+        <i class="fas fa-laptop-code"></i> Web & App Designer
+    </div>
+    <div class="description">
+        <p>Welcome to my personal website 
+�
+�
+ </p>
+        <p>I'm Murad, a web and app designer & developer.</p>
+        <p>I turn ideas into smooth, attractive digital experiences.</p>
+    </div>
+    <div class="contact-phone">
+        <i class="fas fa-phone-alt"></i> +967 777 717 238
+    </div>
+    <div class="links">
+        <a href="https://wa.me/967777717238" target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.facebook.com/share/17AMCQDJFR/" target="_blank" class="facebook">
+            <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/m0i.i0i?igsh=MXViMmkybnJ3dW1sdQ==" target="_blank"
+ class="instagram">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </div>
+    <div class="footer-note">
+        <i class="fas fa-envelope"></i> murad@example.com
+    </div>
+ </div>
+</body>
+ </html>
